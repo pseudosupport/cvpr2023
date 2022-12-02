@@ -4,7 +4,7 @@
 
 ## Introduction
 In this repo, we provide the implementation of the following paper:<br>
-"Pseudo Support: A Sharp Enhancement Method for Few-shot Classification under Extreme Scarcity of Support Images"  [[Paper]]().
+"Pseudo Support: A Sharp Enhancement Method for Few-shot Classification under Extreme Scarcity of Support Images"  
 
  When there is a lack of support images, the embeddings extracted from the support images are likely to deviate from the average feature of categories. Consequently, current few-shot classification algorithms work less effectively when support images are extreme scarce as in the 1-shot setting. To alleviate this problem, we propose Pseudo Support, a sharp prototype embedding enhancement method for few-shot classification. In the first classification step, we pick query images of high confidence as pseudo support images, whose feature maps are concatenated to original support feature maps. It is proved with mathematical derivation that prototype embeddings calculated with updated support feature maps are more likely to be close to the average feature of categories. Experiments conducted on four standard few- shot classification benchmarks show that, Pseudo Support boosts the performance of different base models by more than 5%, as well as setting new state-of-the-art results. Further, within an error range of 3%, our method helps a model that learns from 2 images achieve an accuracy close to one that learns from 5 images.
 

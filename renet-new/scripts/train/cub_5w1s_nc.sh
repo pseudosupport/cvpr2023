@@ -1,0 +1,1 @@
+python train_original.py -batch 64 -dataset cub -gpu 1,4 -extra_dir nc_run -temperature_attn 2.0 -lamb 1.5
